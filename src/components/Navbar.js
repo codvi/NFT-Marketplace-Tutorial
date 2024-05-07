@@ -37,7 +37,7 @@ function updateButton() {
 async function connectWebsite() {
 
     const chainId = await window.ethereum.request({ method: 'eth_chainId' });
-    if(chainId !== '0x5')
+    if(chainId !== '0xaa36a7')
     {
       //alert('Incorrect network! Switch your metamask network to Rinkeby');
       await window.ethereum.request({
@@ -77,7 +77,6 @@ async function connectWebsite() {
           <ul className='flex items-end justify-between py-3 bg-transparent text-white pr-5'>
           <li className='flex items-end ml-5 pb-2'>
             <Link to="/">
-            <img src={fullLogo} alt="" width={120} height={120} className="inline-block -mt-2"/>
             <div className='inline-block font-bold text-xl ml-2'>
               NFT Marketplace
             </div>

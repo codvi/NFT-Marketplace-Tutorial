@@ -17,17 +17,9 @@ module.exports = {
     hardhat: {
       chainId: 1337
     },
-    mumbai: {
-      url: `https://polygon-mumbai.g.alchemy.com/v2/nAhiCHKvZkhkp4A7PkkCIBON0-BXW26d`,
-      //accounts: [process.env.privateKey]
-    },
-    matic: {
-      url: "https://polygon-mainnet.g.alchemy.com/v2/nAhiCHKvZkhkp4A7PkkCIBON0-BXW26d",
-      //accounts: [process.env.privateKey]
-    },
-    goerli: {
-      url: process.env.REACT_APP_ALCHEMY_API_URL,
-      accounts: [ process.env.REACT_APP_PRIVATE_KEY ]
+    sepolia: {
+      url: "https://eth-sepolia.g.alchemy.com/v2/C8wjy8tVt4roODQM0XH5q3iWO_FyLSjT",
+      accounts: [ "01566f9561fc94a487b7cb33c0424136f87ace5c91ccfe9f456b21016a00c13c" ]
     }
   },
   solidity: {
